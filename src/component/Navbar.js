@@ -70,7 +70,8 @@
 // export default Navbar;
 
 import React, {useState, useEffect} from 'react'
-import {Box,AppBar, Toolbar, Stack,IconButton,Drawer,useMediaQuery,useTheme,Divider,Grid,Typography} from '@material-ui/core'
+// import {Box,AppBar, Toolbar, Stack,IconButton,Drawer,useMediaQuery,useTheme,Divider,Grid,Typography} from '@material-ui/core'
+import {Stack,Box,AppBar, IconButton, useMediaQuery,useTheme,Divider,Grid,Typography} from '@material-ui/core'
 
 import { Link } from 'react-scroll'
 import MenuIcon from '@material-ui/icons';

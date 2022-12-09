@@ -70,11 +70,11 @@
 // export default Navbar;
 
 import React, {useState, useEffect} from 'react'
-import {Box,AppBar, Toolbar, Stack,IconButton,Drawer,useMediaQuery,useTheme,Divider,Grid,Typography} from '@mui/material'
+import {Box,AppBar, Toolbar, Stack,IconButton,Drawer,useMediaQuery,useTheme,Divider,Grid,Typography} from '@material-ui/core'
 
 import { Link } from 'react-scroll'
-import MenuIcon from '@mui/icons-material/Menu';
-import CloseIcon from '@mui/icons-material/Close';
+import MenuIcon from '@material-ui/icons';
+import CloseIcon from '@material-ui/icons';
 import {navItems} from '../utils/resuablesJS'
 import {mobileNavItems} from '../utils/resuablesJS'
 

@@ -1,0 +1,36 @@
+
+
+[
+
+    {
+    "id": 1,
+    "image" : "../assets/images/sliderImg2.png",
+    "title" : "Slider Image 1"
+    
+    },
+    {
+        "id": 2,
+        "image" : "../assets/images/sliderImg2.png",
+        "title" : "Slider Image 2"
+        
+        },
+    {
+    "id": 3,
+    "image" : "../assets/images/sliderImg3.png",
+    "title" : "Slider Image 3"
+    
+    },
+    {
+        "id": 4,
+        "image" : "../assets/images/sliderImg4.png",
+        "title" : "Slider Image 4"
+        
+        }
+            
+        
+    
+    
+    
+    ]
+
+

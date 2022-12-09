@@ -1,0 +1,103 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#root {
+background: url('./assets/images/chaplogo.png') repeat;
+background-size: 300px;
+background-position: center;
+background-color: #f2ebd785;
+width: 100%;
+height: 100%;
+overflow: hidden;
+}
+
+.emphasized-Text {
+    color: #74060b;
+    text-transform: uppercase;
+}
+
+.aux-link{
+    text-decoration: underline;
+    color: #74060b;
+    
+}
+/* style={{ textDecoration: 'none',
+    textTransform: 'Capitalize',
+    letterSpacing:'2px',
+    color: '#f2ebd7' }} */
+
+
+.menu-icon{
+    color: #F2EBD7;
+}
+.nav-link{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #F2EBD7;
+    text-decoration: none;
+}
+
+
+.menu-icon:hover,
+.nav-link:hover,
+.nav-link:focus{
+ color: #f2ebd7a1;
+ /* background-color: rgba(0, 0, 0, 0.226); */
+}
+
+/* NAV LINKS  */
+
+.mobileNav-link{
+    color:#74060b;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    /* scroll-behavior: smooth; */
+    cursor: pointer;
+}
+
+
+.mobileNav-link:hover,
+.mobileNav-link:focus{
+    background-color: #74060c56;
+    color: #F2EBD7;
+}
+
+.footer-link-icon{
+   color: #F2EBD7 ;
+
+}
+
+
+.instagram-link:hover,
+.instagram-link:focus{
+    color: #c32aa3;
+}
+.twitter-link:hover,
+.twitter-link:focus{
+    color: #1da1f2;
+
+}
+.tiktoc-link > svg:hover,
+.tiktoc-link > svg:focus{
+  fill:#69c9d0
+}
+.cashapp-link > svg:hover,
+.cashapp-link > svg:focus{
+fill: #048c2c;
+}
+
+.footer-link,
+.footer-useful-link{
+    text-decoration: none;
+    color: #F2EBD7; 
+    
+}

@@ -1,4 +1,5 @@
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
+
 
 function Faq() {
   return <Typography>Faq page</Typography>;

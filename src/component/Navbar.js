@@ -110,9 +110,9 @@ const [windowDimension, detectWidth] = useState({
       setClick(click+1)
      }
 
-  useEffect(() => {
-        document.getElementById('Home').scrollIntoView({ behavior: "smooth", block: "start" });
-    }, [])
+  // useEffect(() => {
+  //       document.getElementById('Home').scrollIntoView({ behavior: "smooth", block: "start" });
+  //   }, [])
 
       useEffect(()=>{
       

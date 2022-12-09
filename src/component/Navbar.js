@@ -88,7 +88,7 @@ const [click , setClick] = useState(0)
 
 
 const theme = useTheme();
-const isSmallSize =  useMediaQuery(theme.breakpoints.only("sm"));
+// const isSmallSize =  useMediaQuery(theme.breakpoints.only("sm"));
 
 
 const [windowDimension, detectWidth] = useState({
@@ -116,7 +116,7 @@ const [windowDimension, detectWidth] = useState({
 
       useEffect(()=>{
       
-        if(windowDimension.winWidth  > isSmallSize)setMobileOpen(false)
+        // if(windowDimension.winWidth  > isSmallSize)setMobileOpen(false)
     
           window.addEventListener('resize', dectectSize)
       
@@ -127,12 +127,12 @@ const [windowDimension, detectWidth] = useState({
       },[windowDimension])
 
 
-  useEffect(()=>{
+  // useEffect(()=>{
 
-    if(!isSmallSize){
-      setMobileOpen(false)
-    }
-  },[click])
+  //   if(!isSmallSize){
+  //     setMobileOpen(false)
+  //   }
+  // },[click])
 
   const container = windows !== undefined ? () => window().document.body : undefined;
 
@@ -147,7 +147,7 @@ const [windowDimension, detectWidth] = useState({
     }}
     >
     <Toolbar
-       disableGutters={isSmallSize ? true : false} 
+      //  disableGutters={isSmallSize ? true : false} 
     >
         <Stack
         direction='row'
